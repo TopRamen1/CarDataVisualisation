@@ -1,0 +1,3 @@
+<launch>
+ <node pkg="analytic_center" type="monitoring_system.py" name="monitor" args = 'silent_config.yml' />
+</launch>

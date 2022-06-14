@@ -1,0 +1,12 @@
+# Analysis YAML Config
+---
+name: 'analysis config'
+refresh_rate: 3 # publish rate in seconds
+mode: 'normal'
+topics:
+  - /velodyne_points
+  - /velodyne_points_synchronized_trimmed
+  - /ground_segmentation/obstacle_cloud
+  - /darknet_ros/detection_image
+  - /cone_detector/cones
+...

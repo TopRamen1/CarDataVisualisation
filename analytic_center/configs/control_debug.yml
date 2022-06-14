@@ -1,0 +1,11 @@
+# Analysis YAML Config
+---
+name: 'analysis config'
+refresh_rate: 1 # publish rate in seconds
+mode: 'normal'
+topics:
+  - /dv_path_planning/path
+  - /dv_slam/pose2d
+  - /odometry/filtered
+  - /dv_board/data
+...

@@ -1,0 +1,9 @@
+# Analysis YAML Config
+---
+name: 'analysis config'
+refresh_rate: 3 # publish rate in seconds
+mode: 'normal'
+topics:
+  - /imu/data
+  - /core2/output/wheelsTicks
+...

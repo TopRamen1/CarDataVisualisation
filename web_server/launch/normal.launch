@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="web_server" name="robotDispatcher" type="ros_web_sub.py" args="10" output="screen"/>
+</launch>

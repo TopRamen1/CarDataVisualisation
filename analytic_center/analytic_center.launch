@@ -1,0 +1,4 @@
+<launch>
+ <node pkg="analytic_center" type="plot_drawer.py" name="analize_node" args = '30' />
+ <node pkg="analytic_center" type="csv_writer.py" name="writer" />
+</launch>

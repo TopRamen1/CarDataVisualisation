@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="analytic_center" type="monitoring_system.py" name="monitor" args = 'control_debug.yml' />
+</launch>
